@@ -1,5 +1,10 @@
 # BLDC-control_Matlab-Simulink
-This project presents a motor control model implemented in MATLAB/SIMULINK. The model's purpose is to accurately determine the motor's position and speed, enabling advanced control over its performance.
+This project delivers a full **brushless DC (BLDC) motor control system** developed in MATLAB/Simulink and deployed on a physical Texas Instruments board. It combines simulation and real hardware execution to regulate torque, current, and speed in real time.
+
+- Features cascaded control loops (outer speed loop, inner current loops)  
+- Supports both **PI** and **LQR** controllers  
+- Includes SCI interface for real-time monitoring and parameter tuning  
+- Bridges theory and practical system validation on hardware  
 
 # Model Structure and Functionalities
 The SIMULINK model consists of several interconnected modules:
